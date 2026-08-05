@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teztecch Admin</title>
+
+<link rel="stylesheet" href="admin.css">
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>Teztecch Admin Dashboard</h1>
+
+<form id="postForm">
+
+<input
+type="text"
+id="title"
+placeholder="Report Title"
+required>
+
+<select id="category">
+
+<option value="Report">Report</option>
+<option value="Blog">Blog</option>
+<option value="Case Study">Case Study</option>
+
+</select>
+
+<textarea
+id="content"
+placeholder="Write report..."
+rows="10"
+required></textarea>
+
+<button type="submit">
+
+Publish Report
+
+</button>
+
+</form>
+
+<hr>
+
+<h2>Published Reports</h2>
+
+<div id="postsContainer"></div>
+
+</div>
+
+<script src="admin.js"></script>
+
+</body>
+</html>
