@@ -26,7 +26,7 @@ contactForm.addEventListener("submit", async function(e){
 
 
         const response = await fetch(
-            "http://localhost:5000/api/contact",
+            "https://teztecch-website.onrender.com/api/contact",
             {
                 method:"POST",
 
@@ -37,6 +37,7 @@ contactForm.addEventListener("submit", async function(e){
                 body:JSON.stringify(contactData)
 
             }
+        
         );
 
 

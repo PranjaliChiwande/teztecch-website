@@ -11,7 +11,7 @@ async function login(){
 
 
     const response = await fetch(
-        "http://localhost:5000/api/auth/login",
+        "https://teztecch-website.onrender.com/api/auth/login",
         {
 
             method:"POST",

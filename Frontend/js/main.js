@@ -31,7 +31,7 @@ counters.forEach(counter => {
 });
 async function loadPosts() {
     try {
-        const response = await fetch("http://localhost:5000/api/posts");
+        const response = await fetch("https://teztecch-website.onrender.com/api/posts");
         const posts = await response.json();
 
         console.log(posts); // Check the fetched data
